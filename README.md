@@ -17,12 +17,11 @@ Welcome to Japanese House, a beautifully crafted Fullstack-MVP for a sushi resta
 
 ### Mobile View
 
-![Mobile View](https://imgur.com/E2L6tbO.png)
-![Mobile View](https://imgur.com/rBT8bZ3.png)
+
 
 ### Desktop View
 
-![Desktop View](https://imgur.com/G0MjiiP.gif)
+
 
 ## Links
 
