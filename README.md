@@ -35,7 +35,7 @@ This project is built using the following technologies && npm packages :
 # front-end
 - HTML
 - CSS
-- REACT
+- react
 - [AOS Library](https://michalsnik.github.io/aos/) for animations
 - Vite (JavaScript build tool)
 - BEM (Block-Element-Modifier) methodology for CSS architecture
