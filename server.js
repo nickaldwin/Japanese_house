@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const React = require("react")
 const mongoose = require("mongoose");
 const passoprt = require("passport");
 const session   = require("express-session");
@@ -24,8 +25,10 @@ connectDB();
 
 //engine for front-end
 
-app.set("view engine", "")// not yet installed
+app.set("view engine", "jsx")// not yet installed
+// Use a view engine that supports rendering JSX
 
+app.engine("jsx", require("express-react-views").createEngine());
 //static folder
 app.use(express.static("public"));
 
@@ -61,6 +64,12 @@ app.use(flash());
 
 app.use("/", mainRoutes);
 app.use("/post", postRoutes);
+
+
+// Define a route that renders a JSX template
+app.get("/", (req, res) => {
+    res.render("MyComponent", )
+})
 
 //sever running
     app.listen(process.env.PORT, () => {
